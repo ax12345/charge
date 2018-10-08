@@ -82,4 +82,8 @@ class AdminController extends Controller
     {
         //
     }
+
+    public function welcome(){
+        return view('Admin.Admin.welcome');
+    }
 }

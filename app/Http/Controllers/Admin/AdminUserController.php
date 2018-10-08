@@ -4,6 +4,8 @@ namespace App\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
 use App\Http\Controllers\Controller;
+//导入表单校验类
+use App\Http\Requests\AdminUserinsert;
 
 class AdminUserController extends Controller
 {
@@ -33,9 +35,9 @@ class AdminUserController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(AdminUserinsert $request)
     {
-        //
+        echo 111;
     }
 
     /**

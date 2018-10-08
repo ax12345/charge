@@ -13,5 +13,6 @@
 
 //后台首页
 Route::resource("/admin",'Admin\AdminController');
+Route::get('/welcome','Admin\AdminController@welcome');
 //后台用户模块
 Route::resource("/adminuser",'Admin\AdminUserController');
